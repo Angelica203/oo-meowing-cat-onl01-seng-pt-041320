@@ -10,6 +10,10 @@ class Cat
     @name
   end
 
+  def meow
+    put "meow!"
+  end
+
 end
 
-maru = Cat.new
+
